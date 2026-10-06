@@ -1,0 +1,328 @@
+<!DOCTYPE html> <html lang="en"> <head> <meta charset="UTF-8"> <meta name="viewport" content="width=device-width, initial-scale=1.0"> <title>Budget Tracker</title>
+<link rel="stylesheet" href="style.css">
+
+</head> <body>
+<!-- Page Heading Card -->
+<header class="page-header">
+    <div>
+        <p class="eyebrow">PERSONAL FINANCE</p>
+        <h1>Budget Tracker</h1>
+        <p class="intro">
+            Keep track of your expenses and manage your money with ease.
+        </p>
+    </div>
+
+    <div class="balance-card">
+        <span>Monthly Balance</span>
+        <strong>$1,850.00</strong>
+    </div>
+</header>
+
+<main>
+
+    <!-- Add Expense Card -->
+    <section class="card">
+        <div class="section-heading">
+            <div>
+                <p class="eyebrow">TRANSACTIONS</p>
+                <h2>Add Expense</h2>
+            </div>
+            <span class="icon">+</span>
+        </div>
+
+        <form class="expense-form">
+
+            <div class="form-group">
+                <label for="expense-name">Expense Name</label>
+                <input
+                    type="text"
+                    id="expense-name"
+                    name="expense-name"
+                    placeholder="e.g. Groceries"
+                >
+            </div>
+
+            <div class="form-group">
+                <label for="amount">Amount</label>
+                <input
+                    type="number"
+                    id="amount"
+                    name="amount"
+                    placeholder="0.00"
+                    step="0.01"
+                >
+            </div>
+
+            <div class="form-group">
+                <label for="category">Category</label>
+                <select id="category" name="category">
+                    <option value="">Select category</option>
+                    <option value="food">Food</option>
+                    <option value="transport">Transport</option>
+                    <option value="utilities">Utilities</option>
+                    <option value="entertainment">Entertainment</option>
+                    <option value="shopping">Shopping</option>
+                    <option value="other">Other</option>
+                </select>
+            </div>
+
+            <div class="form-group">
+                <label for="date">Date</label>
+                <input
+                    type="date"
+                    id="date"
+                    name="date"
+                >
+            </div>
+
+            <div class="form-actions">
+                <button type="submit" class="primary-button">
+                    Add Expense
+                </button>
+            </div>
+
+        </form>
+    </section>
+
+    <!-- Expense Table Card -->
+    <section class="card">
+        <div class="section-heading">
+            <div>
+                <p class="eyebrow">RECENT ACTIVITY</p>
+                <h2>Expense History</h2>
+            </div>
+
+            <span class="expense-count">5 expenses</span>
+        </div>
+
+        <div class="table-container">
+            <table>
+                <thead>
+                    <tr>
+                        <th>Expense</th>
+                        <th>Category</th>
+                        <th>Date</th>
+                        <th>Amount</th>
+                    </tr>
+                </thead>
+
+                <tbody>
+                    <tr>
+                        <td>Groceries</td>
+                        <td>
+                            <span class="category food">Food</span>
+                        </td>
+                        <td>06 Oct 2026</td>
+                        <td class="amount">$85.00</td>
+                    </tr>
+
+                    <tr>
+                        <td>Bus Fare</td>
+                        <td>
+                            <span class="category transport">Transport</span>
+                        </td>
+                        <td>05 Oct 2026</td>
+                        <td class="amount">$25.00</td>
+                    </tr>
+
+                    <tr>
+                        <td>Electricity Bill</td>
+                        <td>
+                            <span class="category utilities">Utilities</span>
+                        </td>
+                        <td>04 Oct 2026</td>
+                        <td class="amount">$120.00</td>
+                    </tr>
+
+                    <tr>
+                        <td>Movie Night</td>
+                        <td>
+                            <span class="category entertainment">
+                                Entertainment
+                            </span>
+                        </td>
+                        <td>03 Oct 2026</td>
+                        <td class="amount">$40.00</td>
+                    </tr>
+
+                    <tr>
+                        <td>New Shoes</td>
+                        <td>
+                            <span class="category shopping">Shopping</span>
+                        </td>
+                        <td>01 Oct 2026</td>
+                        <td class="amount">$75.00</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+    </section>
+
+</main>
+
+<footer>
+    <p>Budget Tracker &copy; 2026</p>
+</footer>
+
+</body> </html><link rel="stylesheet" href="style.css">
+<!-- Page Heading Card -->
+<header class="page-header">
+    <div>
+        <p class="eyebrow">PERSONAL FINANCE</p>
+        <h1>Budget Tracker</h1>
+        <p class="intro">
+            Keep track of your expenses and manage your money with ease.
+        </p>
+    </div>
+
+    <div class="balance-card">
+        <span>Monthly Balance</span>
+        <strong>$1,850.00</strong>
+    </div>
+</header>
+
+<main>
+
+    <!-- Add Expense Card -->
+    <section class="card">
+        <div class="section-heading">
+            <div>
+                <p class="eyebrow">TRANSACTIONS</p>
+                <h2>Add Expense</h2>
+            </div>
+            <span class="icon">+</span>
+        </div>
+
+        <form class="expense-form">
+
+            <div class="form-group">
+                <label for="expense-name">Expense Name</label>
+                <input
+                    type="text"
+                    id="expense-name"
+                    name="expense-name"
+                    placeholder="e.g. Groceries"
+                >
+            </div>
+
+            <div class="form-group">
+                <label for="amount">Amount</label>
+                <input
+                    type="number"
+                    id="amount"
+                    name="amount"
+                    placeholder="0.00"
+                    step="0.01"
+                >
+            </div>
+
+            <div class="form-group">
+                <label for="category">Category</label>
+                <select id="category" name="category">
+                    <option value="">Select category</option>
+                    <option value="food">Food</option>
+                    <option value="transport">Transport</option>
+                    <option value="utilities">Utilities</option>
+                    <option value="entertainment">Entertainment</option>
+                    <option value="shopping">Shopping</option>
+                    <option value="other">Other</option>
+                </select>
+            </div>
+
+            <div class="form-group">
+                <label for="date">Date</label>
+                <input
+                    type="date"
+                    id="date"
+                    name="date"
+                >
+            </div>
+
+            <div class="form-actions">
+                <button type="submit" class="primary-button">
+                    Add Expense
+                </button>
+            </div>
+
+        </form>
+    </section>
+
+    <!-- Expense Table Card -->
+    <section class="card">
+        <div class="section-heading">
+            <div>
+                <p class="eyebrow">RECENT ACTIVITY</p>
+                <h2>Expense History</h2>
+            </div>
+
+            <span class="expense-count">5 expenses</span>
+        </div>
+
+        <div class="table-container">
+            <table>
+                <thead>
+                    <tr>
+                        <th>Expense</th>
+                        <th>Category</th>
+                        <th>Date</th>
+                        <th>Amount</th>
+                    </tr>
+                </thead>
+
+                <tbody>
+                    <tr>
+                        <td>Groceries</td>
+                        <td>
+                            <span class="category food">Food</span>
+                        </td>
+                        <td>06 Oct 2026</td>
+                        <td class="amount">$85.00</td>
+                    </tr>
+
+                    <tr>
+                        <td>Bus Fare</td>
+                        <td>
+                            <span class="category transport">Transport</span>
+                        </td>
+                        <td>05 Oct 2026</td>
+                        <td class="amount">$25.00</td>
+                    </tr>
+
+                    <tr>
+                        <td>Electricity Bill</td>
+                        <td>
+                            <span class="category utilities">Utilities</span>
+                        </td>
+                        <td>04 Oct 2026</td>
+                        <td class="amount">$120.00</td>
+                    </tr>
+
+                    <tr>
+                        <td>Movie Night</td>
+                        <td>
+                            <span class="category entertainment">
+                                Entertainment
+                            </span>
+                        </td>
+                        <td>03 Oct 2026</td>
+                        <td class="amount">$40.00</td>
+                    </tr>
+
+                    <tr>
+                        <td>New Shoes</td>
+                        <td>
+                            <span class="category shopping">Shopping</span>
+                        </td>
+                        <td>01 Oct 2026</td>
+                        <td class="amount">$75.00</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+    </section>
+
+</main>
+
+<footer>
+    <p>Budget Tracker &copy; 2026</p>
+</footer>
